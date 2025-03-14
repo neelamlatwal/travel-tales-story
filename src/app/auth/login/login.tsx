@@ -39,6 +39,7 @@ const Login = () => {
     <div>
       <h1>Login</h1>
       {error && <p>{error}</p>}
+      <div>My Login Page</div>
       <input
         type="email"
         placeholder="Enter email"
